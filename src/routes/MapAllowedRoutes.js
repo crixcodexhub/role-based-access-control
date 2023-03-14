@@ -12,6 +12,7 @@ function MapAllowedRoutes({routes, basePath, isAddNotFound}) {
 		<Switch>
 			{routes.map((route) => {
 				/*
+				
 				* some variables are used by below code
 				* some are not used by the code but destructure due to remove from rest object
 				* just make sure that rest object only contain props that supported by react-router's route component
